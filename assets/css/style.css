@@ -1,0 +1,47 @@
+
+/* ... Your existing CSS rules ... */
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* Adjust the color of the text as needed */
+  z-index: 1;
+}
+
+.overlay-text h2 {
+  font-size: 32px; /* Adjust the font size as needed */
+}
+
+.overlay-text p {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.overlay-text button {
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+/* ... Your existing CSS rules ... */
+
+
+.contact-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.contact-button:hover {
+  background-color: forestgreen;
+}
+
+
